@@ -38,3 +38,7 @@ I will regularly update this repository with new projects and practice exercises
 ---
 
 ⭐ Thank you for visiting my repository!
+
+## Progress
+
+Day 1 - Started learning MERN Stack.
