@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    height: 800px;
+    border: 5px solid black;
+    background-color: darkcyan;
+    color: #fff;
+    box-shadow: 3px 3px 10px black;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 30%;
+    margin: 30px 70px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.hero {
+    display: flex;
+}
+
+h3 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 350px;
+    font-size: 3rem;
+}
+
+.year {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 670px;
+}
+
+.herob {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 50px;
+    margin-left: -5px;
+}
+
+p {
+    text-align: justify;
+}
+
+h4 {
+    margin: 20px 0;
+}
