@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.sub {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.hero {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-control {
+    display: grid;
+}
+
+.hearo_a {
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    outline-color: red;
+}
+
+.grid-control {
+    grid-column: 1/ span 2;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media (max-width:1150px) {
+    .hearo_a {
+        grid-column: 1/span 1;
+    }
+}
