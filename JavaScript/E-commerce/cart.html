@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <nav class="navbar-section">
+        <img src="./images/logo.png" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#featureProducts">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Account</a></li>
+          <li>
+            <a href="#"><img src="./images/cart.png" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="table-section">
+      <section>
+        <div class="tables">
+          <table class="table">
+            <tr>
+              <th class="product">Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+
+            <tr>
+              <td class="buy-1">
+                <img src="images/buy-1.jpg" />
+                <div class="shirt-price">
+                  <p>Red Printed - Tshirt</p>
+                  <p class="subtotal">price: $75.00</p>
+                  <p class="remove">Remove</p>
+                </div>
+              </td>
+              <td>$<span id="price">50</span></td>
+              <td>
+                <input
+                  id="quantity"
+                  class="quantity"
+                  type="number"
+                  value="1"
+                  min="0"
+                  max="10"
+                />
+              </td>
+              <td class="finalprice">$50</td>
+            </tr>
+
+            <tr>
+              <td class="buy-1">
+                <img src="images/buy-2.jpg" />
+                <div class="shirt-price">
+                  <p>HRX Sports Shoes</p>
+                  <p>price: $75.00</p>
+                  <p class="remove">Remove</p>
+                </div>
+              </td>
+              <td>$<span id="price">50</span></td>
+              <td>
+                <input
+                  id="quantity"
+                  class="quantity"
+                  type="number"
+                  value="1"
+                  min="0"
+                  max="10"
+                />
+              </td>
+              <td class="finalprice">$50</td>
+            </tr>
+            <tr class="row-container"></tr>
+          </table>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="total">
+          <div class="priceText">
+            <p>Subtotal</p>
+            <p>Tax</p>
+            <p>Total</p>
+          </div>
+          <div class="totalPrice">
+            <p>$200.00</p>
+            <p>$35.00</p>
+            <p>$235.00</p>
+          </div>
+        </div>
+      </section>
+      <button class="btn">Proceed to checkout</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
