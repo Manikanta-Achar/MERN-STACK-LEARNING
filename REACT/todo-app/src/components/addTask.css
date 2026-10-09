@@ -1,0 +1,40 @@
+.addTask {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTask>form {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+}
+
+.addTask>form>div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+button:hover {
+    cursor: pointer;
+}

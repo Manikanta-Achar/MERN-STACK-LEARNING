@@ -1,0 +1,25 @@
+.allTasks {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.taskTable {
+    border: 2px solid black;
+    padding: 20px;
+    border-spacing: 10px;
+}
+
+.deleteBtn {
+    background-color: red;
+    border: none;
+    color: wheat;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+}

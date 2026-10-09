@@ -1,0 +1,30 @@
+.navBar {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav>li {
+    list-style: none;
+    margin-left: 15px;
+    border-radius: 4px;
+    padding: 3px;
+    box-shadow: 2px 2px 2px;
+}
+
+.nav>li:hover {
+    cursor: pointer;
+    background-color: rgb(164, 81, 242);
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: black;
+}
